@@ -1,8 +1,8 @@
 
 <div style="text-align: center">
 <form (ngSubmit)="onSubmit(myForm)" #myForm="ngForm"  >
-    <input type="text" name="details" ngModel required />
-    <button style="background-color: blue; color:black" type="submit"> Add </button>
+    <input type="text" name="details" ngModel required placeholder="add details" />
+    <button style="background-color: blue; color:white" type="submit"> Add </button>
 </form>
 
 <ul  *ngFor="let item of texte" class="justify-content-start">
