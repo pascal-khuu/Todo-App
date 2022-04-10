@@ -1,15 +1,6 @@
-<form (ngSubmit)="onSubmit(myForm)" #myForm="ngForm">
-    <input type="text" name="details" ngModel required />
-    <button style="background-color: blue" type="submit"> Add </button>
-   
-</form>
+<h1 style="text-align: center">#todo</h1>
 
-<ul  *ngFor="let item of texte">
-<input type="checkbox" name="details" ngModel required />
-{{item}}
-   
-</ul>
+<app-nav-bar></app-nav-bar>
+<router-outlet></router-outlet>
 
-<!-- <input type="checkbox" id="Do coding challenges"> 
-<label for="Do coding challenges">Do coding challenges</label>
-</form> -->
+
