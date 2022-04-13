@@ -1,13 +1,13 @@
 
 <div style="text-align: center">
-<form (ngSubmit)="onSubmit(myForm)" #myForm="ngForm"  >
-    <input type="text" name="details" ngModel required placeholder="add details" />
-    <button style="background-color: blue; color:white" type="submit"> Add </button>
-</form>
+    <form (ngSubmit)="onSubmit(myForm)" #myForm="ngForm"  >
+        <input type="text" name="details" ngModel required placeholder="add details" />
+        <button style="background-color: blue; color:white" type="submit"> Add </button>
+    </form>
 
-<ul  *ngFor="let item of texte" class="justify-content-start">
-<input type="checkbox" name="details" ngModel required />
-{{item}}
-</ul>
+    <ul  *ngFor="let item of texte" class="justify-content-start">
+        <input type="checkbox" name="details" ngModel required />
+            {{item}}
+    </ul>
 </div>
 
